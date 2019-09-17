@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         final Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                // comment
                 Toast.makeText(MainActivity.this, "This my first android app", Toast.LENGTH_SHORT).show();
                 //Bao
             }
